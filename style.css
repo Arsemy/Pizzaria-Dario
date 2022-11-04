@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    background-image: url(./assets/pizza.jpg);
+    background-size: cover;
+}
+
+.menu {
+    display: inline-block;
+    background-image: url(./assets/bg-menu.jpg);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100%;
+    padding: 0px 20px;
+
+    text-align: center;
+}
+
+.menu__logo-wrapper {
+    margin-top: 40px;
+}
+
+.menu__logo {
+    width: 80%;
+}
+
+.menu__options {
+    margin-top: 200px;
+}
+
+.menu__options__list {
+    font-family: "Patua One", cursive;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+
+    list-style-type: none;
+}
+
+.menu__item {
+    padding: 5px;
+}
+
+.menu__item__link {
+    text-decoration: none;
+    color: #fcf6ec;
+}
+
+.menu__item__link:hover {
+    color: #fabc48;
+}
+
+.menu__social {
+    margin-top: 25vh;
+    padding-bottom: 25px;
+    border-bottom: 5px solid #fab940;
+}
+
+.menu__social__list {
+    list-style-type: none;
+}
+
+.menu__social__list li {
+    display: inline;
+}
+
+.menu__icon__link {
+    text-decoration: none;
+    color: #c6b08c;
+    margin: 0px 5px;
+}
+
+.menu__icon__link:hover {
+    color: #fabc48;
+}
